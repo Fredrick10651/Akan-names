@@ -11,38 +11,44 @@
 
 <body>
     <div class="container">
-        <h1>AKAN NAMES</h1>
-        <div id="about">
-            <P>In Ghana children are given there first their first name as a 'day name' which corresponds to the day in
-                the
-                week they were born.This names are called Akan Names.</P>
-            <p>This application is to help you know the day of the week you were born and your Akan Name corresponding
-                to
-                your day and your gender.</p>
-            <p>Please fill in your date of bith, month and year to this form to know your Akan name</p>
-        </div>
-        <div class="jumbotron">
-            <form>
-                <div class="form col-md-2">
-                    <label>Day</label><br>
-                    <input type="text" class="form-control" id="day" placeholder="dd" required>
-                </div><br>
-                <div class="form col-md-2">
-                    <label>Month</label><br>
-                    <input type="text" class="form-control" id="month" placeholder="mm" required>
-                </div><br>
-                <div class="form col-md-2">
-                    <label>Year</label>
-                    <input type="text" class="form-control" id="year" placeholder="yy" required>
-                </div><br>
+        <h1 class="text-info">AKAN NAMES</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <P>In Ghana children are given there first their first name as a 'day name' which corresponds to the day
+                    in the week they were born.This names are called Akan Names.</P>
+                <p> These names are also used among Ghanaians living abroad and among Africans living in the diaspora
+                    who wish to identify with their ancestral homeland. </p>
+                <p>This application is to help you know the day of the week you were born and your Akan Name
+                    corresponding
+                    to
+                    your day and your gender.</p>
+                <p>Please fill in your date of bith, month and year to this form to know your Akan name</p>
+                <p></p>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron">
+                    <form class=>
+                        <div class="form col-md-2">
+                            <label class="text-info">Day</label><br>
+                            <input type="text" class="form-control" id="day" placeholder="dd" required>
+                        </div><br>
 
-                <div>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label>Male</label><br>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label>Female</label><br>
+                        <div class="form col-md-2">
+                            <label class="text-info">Month</label><br>
+                            <input type="text" class="form-control" id="month" placeholder="mm" required>
+                        </div><br>
+                        <div class="form col-md-2">
+                            <label class="text-info">Year</label>
+                            <input type="text" class="form-control" id="year" placeholder="yy" required>
+                        </div><br>
+                        <label class="text-info">Gender</label><br>
+                        <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                        <input type="radio" name="gender" id="gender" value="female" checked> Female<br><br>
+                        <input class="btn-info" type="submit" id="submit" value="Submit">
+                    </form>
                 </div>
-            </form>
+            </div>
+            <br>
         </div>
     </div>
 

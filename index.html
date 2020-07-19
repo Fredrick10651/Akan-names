@@ -27,6 +27,7 @@
             </div>
             <div class="col-md-6">
                 <div class="jumbotron">
+                    <img src="Images/image6.png" alt="Ghana">
                     <form class="card-body">
                         <div class="form col-md-2">
                             <label class="text-info">Day</label><br>
@@ -41,15 +42,19 @@
                             <label class="text-info">Year</label>
                             <input type="text" class="form-control" id="year" placeholder="yy" required>
                         </div><br>
-                        <label class="text-info">Gender</label><br>
-                        <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
-                        <input type="radio" name="gender" id="gender" value="female" checked> Female<br><br>
-                        <input class="btn-info" type="submit" id="submit" value="Submit">
-                    </form>
-                </div>
+                        <div class="form col-md-2">
+                            <label class="text-info">Century</label><br>
+                            <input type="text" class="form-control" id="Century" placeholder="cc" required>
+                        </div><br>
+                        <label class="text-info">Select gender</label><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" id="gender" value="female" checked> Female<br><br>
+                <input class="btn-info" type="submit" id="submit" value="Submit" onclick="myButton">
+                </form>
+                </div><br>
             </div>
-            <br>
-        </div>
+        </div><br>
+    </div>
     </div>
 
     <script src="js/scripts.js"></script>

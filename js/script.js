@@ -18,10 +18,10 @@ function myButton() {
       var gender = 'female';
     }
     if (dd <= 0 || dd > 31) {
-      alert("invalid date");
+      alert("Please, input  valid date");
     }
     else if (mm <= 0 || mm > 12) {
-      alert("invalid month");
+      alert("Please, input valid month");
     }
     else if (mm == 2 && dd > 29) {
       alert("invalid day of month")

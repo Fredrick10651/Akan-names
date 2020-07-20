@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 .container {
-  background-image: url('https://perisoduol618.github.io/Akan-Names/Images/image13.png');
+  background-image: url(/Images/image13.png);
   background-repeat: no-repeat;
   background-size: 2000px;
 }

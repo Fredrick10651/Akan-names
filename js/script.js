@@ -1,5 +1,5 @@
-function myButton() {
-    var day = document.getElementById("day").value;
+function submitButton() {
+    var day = document.getElementById("birthday").value;
     var dd = parseInt(day);
     var month = document.getElementById("month").value;
     var mm = parseInt(month);

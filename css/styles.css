@@ -4,18 +4,19 @@ body {
   overflow-x: hidden;
 }
 .container {
-  background-image: url(/Images/image13.png);
+  background-image: url(/Images/pexels-cats-coming-2035735.jpg);
   background-repeat: no-repeat;
-  background-size: 2000px;
+  background-size: cover;
 }
 
 h1 {
   font-size: 100px;
   text-align: center;
-  font-family: 'Architects Daughter', cursive;
+  font-family:  'Dancing Script', cursive;
+  color: pink;
 }
 p{
-  color:whitesmoke;
+  color: black;
 }
 form{
   margin: 0 auto;
@@ -27,4 +28,12 @@ form{
 .get{
   font-family: 'Caveat', cursive;
   font-size: 100px;
+  color: pink;
+}
+h2{
+  font-family:  'Dancing Script', cursive;
+  color: pink;
+}
+.form{
+  background-color: black;
 }

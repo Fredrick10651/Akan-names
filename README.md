@@ -2,7 +2,7 @@
 #### By **Mutsotso Fredrick Angose**
 ## Description
 
- This is the link to my [live site](/)
+ This is the link to my [live site](https://fredrick10651.github.io/Akan-names/)
 
  This application is to help you know the day of the week you were born and your Akan Name, which originate from Ghana corresponding to your day and your gender.
 ## Setup/Installation Requirements

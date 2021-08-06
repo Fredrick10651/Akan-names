@@ -1,8 +1,8 @@
 # Akan Names
-#### By **Peris Oduol**
+#### By **Mutsotso Fredrick Angose**
 ## Description
 
- This is the link to my [live site]( perisoduol618.github.io/akan-names/)
+ This is the link to my [live site](/)
 
  This application is to help you know the day of the week you were born and your Akan Name, which originate from Ghana corresponding to your day and your gender.
 ## Setup/Installation Requirements
@@ -20,12 +20,12 @@
 * JavaScript
 * Bootsrap
 ## Support and contact details
-Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :oduolpepe618@gmail.com 
+Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :mutsotsofredrick@gmail.com 
 
 ## License
 *MIT License*
 
-Copyright (c) 2020 Peris Oduol
+Copyright (c) 2021 Mutsotso Fredrick Angose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
